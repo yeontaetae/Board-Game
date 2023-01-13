@@ -1,0 +1,55 @@
+Enter a command (type help for details):
+help
+Possible commands are as follows:
+create location [fast] [flexible]: Creates a new piece
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+Enter a command (type help for details):
+print
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+Enter a command (type help for details):
+create 3 3 fast flexible
+Input a name for the new piece:
+Jedi
+Input a colour for the new piece:
+Red
+Enter a command (type help for details):
+print
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		JediRedFF		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+Enter a command (type help for details):
+move 7 7
+Error: no piece at (7, 7)
+Enter a command (type help for details):
+move 3 3 up 2
+Piece at (3, 3) moved up by 2 spaces
+Enter a command (type help for details):
+print
+-		-		-		-		-		-		-		-
+-		-		-		JediRedFF		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+-		-		-		-		-		-		-		-
+Enter a command (type help for details):
+exit
+Done.
+
+Process finished with exit code 0
